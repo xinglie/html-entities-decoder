@@ -1,0 +1,24 @@
+{
+  "name": "html-entities-decoder",
+  "version": "1.0.0",
+  "description": "decode all html entities",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinglie/html-entities-decoder.git"
+  },
+  "keywords": [
+    "html",
+    "decoder",
+    "entities",
+    "encode",
+    "tags",
+    "attributes"
+  ],
+  "author": "xinglie <kooboy_li@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinglie/html-entities-decoder/issues"
+  },
+  "homepage": "https://github.com/xinglie/html-entities-decoder#readme"
+}
