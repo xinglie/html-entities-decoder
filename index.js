@@ -2133,7 +2133,7 @@ let tables = {
     'Zscr': '\ud835\udcb5',
     'zscr': '\ud835\udccf'
 };
-let reg = /&([^;]{2,});?/g;
+let reg = /&([^&;]{2,});?/g;
 module.exports = html => {
     html = html.replace(reg, (match, entity) => {
         if (tables.hasOwnProperty(entity)) {
