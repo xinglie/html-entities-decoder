@@ -1,8 +1,9 @@
 {
   "name": "html-entities-decoder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "decode all html entities",
   "main": "index.js",
+  "module": "index.mjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xinglie/html-entities-decoder.git"

@@ -2134,7 +2134,7 @@ let tables = {
     zscr: '\ud835\udccf'
 };
 let reg = /&([^&;]{2,});?/g;
-module.exports = html => {
+export default html => {
     html = html.replace(reg, (match, entity) => {
         if (tables.hasOwnProperty(entity)) {
             return tables[entity];
