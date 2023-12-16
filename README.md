@@ -15,6 +15,14 @@ let input = '1 &copy; 2 &#34;'
 let output = decode(input) // 1 © 2 "
 ```
 
+or
+
+```js
+import decode from 'html-entities-decoder';
+let input = '1 &copy; 2 &#34;'
+let output = decode(input) // 1 © 2 "
+```
+
 ### License
 MIT
 
