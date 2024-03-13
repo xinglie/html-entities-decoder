@@ -2145,6 +2145,7 @@ module.exports = html => {
                 radix = 16;
                 remove = 2;
             }
+            num = parseInt(entity.slice(remove), radix);
             if (!isNaN(num) &&
                 num >= -32768 &&
                 num <= 65535) {

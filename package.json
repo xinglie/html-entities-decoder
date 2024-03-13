@@ -1,6 +1,6 @@
 {
   "name": "html-entities-decoder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "decode all html entities",
   "main": "index.js",
   "module": "index.mjs",
